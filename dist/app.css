@@ -6,10 +6,12 @@
 
 h1 {
   color: red;
+  padding: 50px;
 }
 
 h2 {
   color: red;
+  margin-top: 50px;
 }
 
 p {
@@ -19,6 +21,7 @@ p {
 button {
   background-color: blue;
   color: lightgreen;
+  padding: 100px;
 }
 
 button:last-child {

@@ -2,6 +2,7 @@ $basic : red;
 $title : green;
 $btnColor : blue;
 $textColor : lightgreen;
+$spacing : 50px;
 
 * {
     margin: 0;
@@ -11,10 +12,12 @@ $textColor : lightgreen;
 
 h1 {
     color: $basic;
+    padding: $spacing
 }
 
 h2 {
     color: $basic;
+    margin-top: $spacing;
 }
 
 p {
@@ -24,6 +27,7 @@ p {
 button {
     background-color: $btnColor;
     color: $textColor;
+    padding: $spacing * 2;
 }
 
 $secondButton : orange;
