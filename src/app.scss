@@ -1,0 +1,33 @@
+$basic : red;
+$title : green;
+$btnColor : blue;
+$textColor : lightgreen;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: $basic;
+}
+
+h2 {
+    color: $basic;
+}
+
+p {
+    color: $title;
+}
+
+button {
+    background-color: $btnColor;
+    color: $textColor;
+}
+
+$secondButton : orange;
+
+button:last-child {
+    background-color: $basic;
+}
